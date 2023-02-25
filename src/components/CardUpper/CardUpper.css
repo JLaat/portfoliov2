@@ -1,0 +1,37 @@
+.wrapper {
+    position: relative;
+}
+
+.nice-bg {
+    height: 50%;
+    width: 100%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    background-image: url("../.././assets/Raphael_School_of_Athens.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-photo {
+    width: 5em;
+    height: 5em;
+    padding: .2em;
+
+    position: absolute;
+    top: calc(50% - 2.8em);
+    left: 6%;
+    
+    border: .4em solid #2e2d2d ;
+    border-radius: 100%;
+
+    background-image: url("../.././assets/tiny.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2e2d2d;
+    
+
+}
