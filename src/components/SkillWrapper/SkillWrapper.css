@@ -1,0 +1,19 @@
+.skillWrapper {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+}
+
+.skill-information {
+    font-size: .9em;
+    align-self: center;
+}
+
+.skill-icon {
+    height: 70%;
+
+    align-self: center;
+}
+
+
+
+    

@@ -32,6 +32,30 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #2e2d2d;
-    
+}
 
+.status-ball {
+    width: 1em;
+    height: 1em;
+
+    position: absolute;
+    top: calc(100% - 1.5em);
+    left: calc(100% - 1.5em);
+
+    border: .3em solid #2e2d2d ;
+    border-radius: 100%;
+
+    background-color: green;
+}
+
+.my-name {
+    margin-top: 2.5em;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-bottom: .5em;
+
+    border-bottom: 2px solid #5c5a5a;
+}
+b {
+    color: #a8a8a8;
 }

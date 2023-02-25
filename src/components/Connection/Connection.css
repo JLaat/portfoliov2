@@ -1,0 +1,33 @@
+.connection-container {
+    display: grid;
+    grid-template-columns: .3fr 1fr 1fr;
+    align-items: center;
+
+    border-radius: 5px;
+    background-color: #535353;
+    margin-bottom: .2em;
+}
+.connection-container > img, a, a > img {
+    height: 2em;
+    width: 2em;
+}
+.connection-name {
+    margin: .6em;
+    font-size: 1em;
+}
+.github-icon {
+    margin-left: 1em;
+}
+a {
+    justify-self: end;
+    margin-right: 1em;
+}
+
+.arrow-icon {
+    transform: rotateZ(-45deg);
+}
+.arrow-icon:hover {
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    transition: all .3s;
+}
