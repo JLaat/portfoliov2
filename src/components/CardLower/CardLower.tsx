@@ -10,15 +10,15 @@ const CardLower = () => {
   return (
     <div className="about-wrapper">
       <div>
-        <h2 className="about-header">ABOUT ME</h2>
+        <h3 className="about-header">ABOUT ME</h3>
         <p className="about-p">Noniin töihinhän sitä vois</p>
         <br />
         <p className="about-p">Ottakaa töihin pls</p>
       </div>
       <div>
-        <h2 className="learning-header">LEARNING A SKILL</h2>
+        <h3 className="learning-header">LEARNING A SKILL</h3>
         <SkillWrapper />
-        <h2 className="connections-header">CONNECTIONS</h2>
+        <h3 className="connections-header">CONNECTIONS</h3>
         <Connection
           connectionIcon={githubIcon}
           username="JLaat"

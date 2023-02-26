@@ -11,9 +11,9 @@ const SkillWrapper = () => {
   return (
     <div className="skillWrapper">
       <img src={codeIcon} alt="codeIcon" className="skill-icon" />
-      <h2 className="skill-information">
+      <h3 className="skill-information">
         CODING <br /> <b>{daysElapsed} days elapsed</b>
-      </h2>
+      </h3>
     </div>
   );
 };

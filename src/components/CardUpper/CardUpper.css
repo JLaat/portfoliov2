@@ -6,9 +6,11 @@
     height: 50%;
     width: 100%;
 
+    /* Nice rounder upper borders */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
+    /* Set bg image to scale nicely */
     background-image: url("../.././assets/Raphael_School_of_Athens.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,6 +36,16 @@
     background-color: #2e2d2d;
 }
 
+@media screen and (max-width: 768px) {
+    .profile-photo {
+        top: calc(50% - 1.95em);
+        width: 3em;
+        height: 3em;
+    }
+}
+    
+
+
 .status-ball {
     width: 1em;
     height: 1em;
@@ -49,7 +61,7 @@
 }
 
 .my-name {
-    margin-top: 2.5em;
+    margin-top: 3em;
     margin-left: 6%;
     margin-right: 6%;
     padding-bottom: .5em;
