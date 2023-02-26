@@ -7,4 +7,9 @@ html, body, #root, .App {
   font-family: "WakeUpNeo";
   src: url("./assets/vt323/VT323-Regular.ttf");
 }
+
+@font-face {
+  font-family: "ModernRetro";
+  src: url("./assets/white-rabbit/whitrabt.ttf");
+}
   
