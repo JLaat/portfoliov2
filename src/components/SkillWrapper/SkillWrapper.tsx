@@ -1,6 +1,6 @@
 import React from "react";
 import "./SkillWrapper.css";
-import codeIcon from "../.././assets/coding.png";
+import codeIcon from "../.././assets/icons/coding.png";
 
 const SkillWrapper = () => {
   const startingDate: Date = new Date(2021, 8, 23, 0, 0);

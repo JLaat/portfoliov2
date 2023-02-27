@@ -1,6 +1,6 @@
 import React from "react";
 import "./Connection.css";
-import arrowRight from "../../assets/arrow-right.png";
+import arrowRight from "../../assets/icons/arrow-right.png";
 
 const Connection = (props: any) => {
   return (

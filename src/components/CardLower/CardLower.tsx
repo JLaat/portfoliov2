@@ -3,8 +3,8 @@ import SkillWrapper from "../SkillWrapper/SkillWrapper";
 import Connection from "../Connection/Connection";
 import "./CardLower.css";
 
-import githubIcon from "../../assets/github.png";
-import linkedinIcon from "../../assets/linkedin.png";
+import githubIcon from "../../assets/icons/github.png";
+import linkedinIcon from "../../assets/icons/linkedin.png";
 
 const CardLower = () => {
   return (

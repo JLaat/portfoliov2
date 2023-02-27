@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CardWrapper from "./components/CardWrapper/CardWrapper";
+import CardWrapper from "./components/icons/CardWrapper/CardWrapper";
 import Menu from "./components/Menu/Menu";
 import Projects from "./pages/Projects/Projects";
 import "./App.css";

@@ -17,6 +17,7 @@
     background-position: center;
 }
 
+/* Profile photo that is 50% on top of .nice-bg */
 .profile-photo {
     width: 5em;
     height: 5em;
@@ -29,23 +30,14 @@
     border: .4em solid #2e2d2d ;
     border-radius: 100%;
 
-    background-image: url("../.././assets/tiny.jpeg");
+    background-image: url("../.././assets/icons/tiny.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #2e2d2d;
 }
 
-@media screen and (max-width: 768px) {
-    .profile-photo {
-        top: calc(50% - 1.95em);
-        width: 3em;
-        height: 3em;
-    }
-}
-    
-
-
+/* Little green ball that is 50% on top of profile photo */
 .status-ball {
     width: 1em;
     height: 1em;
@@ -71,3 +63,15 @@
 b {
     color: #a8a8a8;
 }
+
+@media screen and (max-width: 768px) {
+    .profile-photo {
+        top: calc(50% - 1.95em);
+        width: 3em;
+        height: 3em;
+    }
+}
+    
+
+
+

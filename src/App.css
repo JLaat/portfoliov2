@@ -5,11 +5,11 @@ html, body, #root, .App {
 
 @font-face {
   font-family: "WakeUpNeo";
-  src: url("./assets/vt323/VT323-Regular.ttf");
+  src: url("./assets/fonts/vt323/VT323-Regular.ttf");
 }
 
 @font-face {
   font-family: "ModernRetro";
-  src: url("./assets/white-rabbit/whitrabt.ttf");
+  src: url("./assets/fonts/white-rabbit/whitrabt.ttf");
 }
   
