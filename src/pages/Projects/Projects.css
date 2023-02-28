@@ -1,0 +1,33 @@
+html {
+    background-color: black;
+}
+.page-projects > * {
+    font-family: MordernRetro;
+    text-align: center;
+    background-color: black;
+    color: #0F0
+} 
+.page-projects {
+    height: 100%;
+    background-color: black;
+}
+
+.header-projects {
+    background-color: #040;
+    border: 2px solid #0F0;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+@media  screen and (max-width: 775px) {
+    .header-page {
+        font-size: 2.5em;
+    }
+}
+    

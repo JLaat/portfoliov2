@@ -1,0 +1,19 @@
+.page-home {
+height: 100%;
+width: 100%;
+margin-top: 1em;
+
+display: grid;
+grid-template-rows: 1fr 12fr;
+background-color: rgb(35, 34, 39);
+}
+
+h3 {
+    font-size: .8em;
+  }
+  
+  @media screen and (max-width: 768px) {
+    img {
+      max-height: 3em;
+    }
+  }
